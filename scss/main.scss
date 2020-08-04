@@ -1,0 +1,29 @@
+//Bootstrap theme modification
+$theme-colors: (
+  "success": #DE8843
+);
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+//Bootstrap theme modification
+
+//Style
+body {
+  background-color: #0D3C46;
+  color: #F9F9F9;
+}
+
+header {
+  .navbar-brand {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    letter-spacing: 0.125em;
+    font-variant: small-caps;
+  }
+
+  a {
+    color: #F9F9F9 !important;
+  }
+
+}
+//Style
