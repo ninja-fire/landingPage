@@ -4,43 +4,49 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  <link href="./style.css" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
         rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
   <title>Landing Page</title>
 </head>
 <body>
 <header id="header">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="#">Navbar</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <a class="navbar-brand" href="#">
+      <img src="https://res.cloudinary.com/ninjafire/image/upload/v1596528400/Landing%20Page/logo_jrhoyk.svg" width="30"
+           height="30" class="d-inline-block align-top" alt="" loading="lazy">
+      BRAINER
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
+            aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
-      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-          </li>
-        </ul>
-        <form class="form-inline my-2 my-lg-0">
-          <input class="form-control mr-sm-2" type="search" placeholder="Search">
-          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-        </form>
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+      <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" href="#">Features</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Enterprise</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Support</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Pricing</a>
+        </li>
+      </ul>
+      <div>
+        <button class="btn btn-outline-success my-2 my-sm-0" type="button">Sign Up</button>
       </div>
-    </nav>
+    </div>
+  </nav>
 </header>
 <main>
-  <div id="container">
+<!--  presentation-container-->
+  <div id="container" class="container-fluid">
     <div class="row justify-content-center align-items-center">
       <div class="col-sm">
         Best argument
@@ -50,7 +56,8 @@
       </div>
     </div>
   </div>
-  <div id="hero-container">
+  <!-- hero-container -->
+  <div class="container-fluid">
     <div class="row justify-content-center align-items-center">
       <div class="col-sm">
         Image 1
@@ -76,7 +83,8 @@
       </div>
     </div>
   </div>
-  <div id="social-container">
+  <!-- social-container -->
+  <div class="container-fluid">
     <div class="row justify-content-center align-items-center">
       <div class="col-sm">
         Testimonial title
@@ -93,7 +101,8 @@
       </div>
     </div>
   </div>
-  <div id="pricing-container">
+  <!-- pricing-container -->
+  <div class="container-fluid">
     <div class="row justify-content-center align-items-center">
       <div class="col-sm">
         Pricing title and explanation
@@ -111,9 +120,10 @@
       </div>
     </div>
   </div>
-  <div id="CTA-container">
+  <!-- CTA-container -->
+  <div class="container-fluid">
     <div class="row justify-content-center align-items-center">
-      <div id="col-sm">
+      <div class="col-sm">
         call to action form
       </div>
     </div>
@@ -239,13 +249,8 @@
     <!-- Copyright -->
 
   </footer>
-  <!-- Footer -->
+
 </main>
-
-
-
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+<script src="./js/main.js"></script>
 </body>
 </html>
