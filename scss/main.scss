@@ -26,4 +26,57 @@ header {
   }
 
 }
+
+#container {
+  padding: 2em 4em 4em 2em;
+
+  img {
+    width: 90%;
+  }
+
+  p {
+    text-align: justify;
+    padding: 1em 1em 1em 0;
+  }
+
+  #presentation-text {
+    padding: 2em;
+  }
+
+  #form-presentation {
+    width: 80%;
+  }
+
+}
+
+
 //Style
+
+//media query
+$breakpoint-tablet: 960px;
+@media (max-width: $breakpoint-tablet) {
+
+  #container {
+    padding: 1.5em 2em 1.5em 2em;
+
+    #presentation-text {
+      padding: 1em;
+    }
+
+    #form-presentation {
+      width: 100%;
+    }
+
+    p {
+      padding: 1em 0 1em 0;
+    }
+
+    img {
+      width: 100%;
+    }
+
+  }
+
+}
+
+//media query
