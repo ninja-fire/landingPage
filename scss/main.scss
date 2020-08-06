@@ -35,7 +35,6 @@ main {
 
   p {
     text-align: justify;
-    padding: 1em 1em 1em 0;
   }
 
   .argument {
@@ -56,6 +55,7 @@ main {
 
     p {
       text-align: center;
+      padding: 1em 1em 1em 1em;
     }
 
     h4 {
@@ -65,6 +65,44 @@ main {
 
     img {
       width: 5em;
+    }
+  }
+
+  #pricing-container {
+    text-align: center;
+    background-color: #F9F9F9;
+    color: #0D3C46;
+
+    li {
+      background-color: #0D3C46;
+      color: #F9F9F9;
+      font-weight: 200;
+      text-align: justify;
+      padding-left: 3em;
+    }
+
+    p {
+      padding: 0 15em 0 15em ;
+    }
+
+    img {
+      width: 80%;
+      padding: 1.5em;
+    }
+
+    h6 {
+      text-align: justify;
+      font-style: normal;
+      font-weight: 300;
+    }
+
+    h2 {
+      color: #DE8843;
+    }
+
+    .card {
+      background-color: #0D3C46;
+      color: #F9F9F9;
     }
   }
 
@@ -80,6 +118,14 @@ $breakpoint-tablet: 960px;
 
   main {
 
+    p {
+      padding: 1em 0 1em 0;
+    }
+
+    img {
+      width: 100%;
+    }
+
     .argument {
       padding: 1.5em 2em 1.5em 2em;
     }
@@ -92,14 +138,17 @@ $breakpoint-tablet: 960px;
       width: 100%;
     }
 
-    p {
-      padding: 1em 0 1em 0;
-    }
+    #pricing-container {
+      text-align: center;
 
-    img {
-      width: 100%;
-    }
+      p {
+        padding: 0 1em 0 1em ;
+      }
 
+      .card {
+        padding: 0.5rem;
+      }
+    }
   }
 
 }
