@@ -13,12 +13,22 @@ body {
 }
 
 header {
+
   .navbar-brand {
     font-family: Roboto;
     font-style: normal;
     font-weight: bold;
     letter-spacing: 0.125em;
     font-variant: small-caps;
+  }
+
+  #navbar {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: #0D3C46;
+    z-index: 12;
   }
 
   a {
@@ -47,6 +57,10 @@ main {
 
   .form-presentation {
     width: 80%;
+  }
+
+  #container {
+    padding-top: 3em;
   }
 
   #social-container {
