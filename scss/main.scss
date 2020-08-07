@@ -13,12 +13,23 @@ body {
 }
 
 header {
+
+
   .navbar-brand {
     font-family: Roboto;
     font-style: normal;
     font-weight: bold;
     letter-spacing: 0.125em;
     font-variant: small-caps;
+  }
+
+  #navbar {
+    position : fixed;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    background-color: #0D3C46;
+    z-index: 12;
   }
 
   a {
