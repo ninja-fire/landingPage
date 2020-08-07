@@ -14,7 +14,6 @@ body {
 
 header {
 
-
   .navbar-brand {
     font-family: Roboto;
     font-style: normal;
@@ -24,10 +23,10 @@ header {
   }
 
   #navbar {
-    position : fixed;
+    position: fixed;
     width: 100%;
-    top: 0px;
-    left: 0px;
+    top: 0;
+    left: 0;
     background-color: #0D3C46;
     z-index: 12;
   }
@@ -58,6 +57,10 @@ main {
 
   .form-presentation {
     width: 80%;
+  }
+
+  #container {
+    padding-top: 3em;
   }
 
   #social-container {
