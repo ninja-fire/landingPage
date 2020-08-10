@@ -3,7 +3,7 @@ $theme-colors: (
   "success": #DE8843
 );
 
-@import "../node_modules/bootstrap/scss/bootstrap";
+@import "~bootstrap/scss/bootstrap";
 //Bootstrap theme modification
 
 //Style
@@ -33,6 +33,10 @@ header {
 
   a {
     color: #F9F9F9 !important;
+  }
+
+  sign-up {
+    padding: 0 1em;
   }
 
 }
